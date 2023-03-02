@@ -156,7 +156,7 @@ p {
   padding-right: 20px;
 }
 
-.tm-about {
+.tm-skill {
   max-width: 525px;
 }
 
@@ -215,6 +215,14 @@ hr {
 .tm-text-link:hover,
 .tm-text-link:focus {
   color: #9cc;
+}
+
+/* skill */
+.skill-icons {
+  margin-bottom: 0px !important;
+}
+.skill-names {
+  margin-top: 0px !important;
 }
 
 /* project */
@@ -398,6 +406,12 @@ textarea {
 }
 
 @media (max-width: 460px) {
+  .skill-icons {
+    margin-bottom: 0px !important;
+  }
+  .skill-names {
+    margin-top: 0px !important;
+  }
   .tm-logo {
     margin-right: 15px;
   }
